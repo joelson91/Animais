@@ -32,7 +32,7 @@ public class Baleia extends Mamifero {
         );
     }
 
-    public void mergulhar() {
-        System.out.println("🐋 Estou mergulhando...");
+    public void cantar() {
+        System.out.println("🐋 uuh uuh");
     }
 }

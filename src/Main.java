@@ -11,7 +11,7 @@ public class Main {
         c1.comer();
         System.out.println("-----------------");
         c1.latir();
-        System.out.println("-----------------");
+        System.out.println("---------------------");
 
         b1.dados();
         System.out.println("-----------------");
@@ -19,7 +19,7 @@ public class Main {
         System.out.println("-----------------");
         b1.comer();
         System.out.println("-----------------");
-        b1.mergulhar();
+        b1.cantar();
         System.out.println("-----------------");
     }
 }
