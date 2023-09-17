@@ -14,10 +14,6 @@ public abstract class Animal {
         return nome;
     }
 
-    public String getClasse() {
-        return classe;
-    }
-
     // Métodos da classe
     public void imprime(){
         System.out.println("Nome: " + this.nome + "\nClasse: " + this.classe);

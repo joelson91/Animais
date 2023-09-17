@@ -1,6 +1,6 @@
 public class Cachorro extends Mamifero {
     // Atributos da classe
-    private boolean tipoLatido;
+    private final boolean tipoLatido;
 
     // Construtor da classe
     public Cachorro(String nome, String classe, boolean tipoLatido) {

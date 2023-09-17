@@ -1,6 +1,6 @@
 public class Vaca extends Mamifero {
     // Atributos da classe
-    private boolean permiteOrdenha;
+    private final boolean permiteOrdenha;
 
     // Construtor da classe
     public Vaca(String nome, String classe, boolean permiteOrdenha) {
