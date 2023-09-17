@@ -3,8 +3,9 @@ public class Cachorro extends Mamifero {
     private boolean tipoLatido;
 
     // Construtor da classe
-    public Cachorro(String nome, String classe) {
+    public Cachorro(String nome, String classe, boolean tipoLatido) {
         super(nome, classe);
+        this.tipoLatido = tipoLatido;
     }
 
     // Métodos da classe

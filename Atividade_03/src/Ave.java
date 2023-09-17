@@ -12,6 +12,6 @@ public abstract class Ave extends Animal {
     }
 
     public void voar(int altura){
-
+        System.out.println("Voando a " + altura + "m de altura");
     }
 }

@@ -1,6 +1,6 @@
 public abstract class Animal {
     // Atributos da classe
-    private String nome;
+    private final String nome;
     protected String classe;
 
     // Construtor da classe
@@ -10,30 +10,18 @@ public abstract class Animal {
     }
 
     // Getters e Setters
-
     public String getNome() {
         return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
     }
 
     public String getClasse() {
         return classe;
     }
 
-    public void setClasse(String classe) {
-        this.classe = classe;
-    }
-
-
     // Métodos da classe
     public void imprime(){
-
+        System.out.println("Nome: " + this.nome + "\nClasse: " + this.classe);
     }
 
-    public void falar(){
-        System.out.println("Som de animal");
-    }
+    public void falar(){System.out.println("Som de animal");}
 }

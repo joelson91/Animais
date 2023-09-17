@@ -4,7 +4,6 @@ public class BemTeVi extends Ave {
     }
 
     // Métodos da classe
-
     @Override
     public void falar() {
         System.out.println("Bem-te-viii!");

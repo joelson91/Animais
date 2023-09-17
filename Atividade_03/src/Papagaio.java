@@ -14,6 +14,6 @@ public class Papagaio extends Ave {
     // Métodos da classe
     @Override
     public void falar() {
-        System.out.println("Loro, Loro!");
+        System.out.println(this.getNome() + " está dizendo: " + this.vocabulario);
     }
 }
